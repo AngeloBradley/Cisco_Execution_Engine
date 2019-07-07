@@ -1,0 +1,6 @@
+
+Traffic test Passed...
+
+The RX/TX counters for interfaces got updated...
+
+['\r\n', '\r\n', '\r\n', '\r\n', ' *: interface is up\r\n', ' IHQ: pkts in input hold queue     IQD: pkts dropped from input queue\r\n', ' OHQ: pkts in output hold queue    OQD: pkts dropped from output queue\r\n', ' RXBS: rx rate (bits/sec)          RXPS: rx rate (pkts/sec)\r\n', ' TXBS: tx rate (bits/sec)          TXPS: tx rate (pkts/sec)\r\n', ' TRTL: throttle count\r\n', '\r\n', '  Interface                   IHQ       IQD       OHQ       OQD      RXBS      RXPS      TXBS      TXPS      TRTL\r\n', '-----------------------------------------------------------------------------------------------------------------\r\n', '* GigabitEthernet1              0         0         0         0         0         0         0         0         0\r\n', '* GigabitEthernet2              0         0         0         0  27420000     15278 305593000     38104         0\r\n', '* GigabitEthernet3              0         0         0         0 305623000     38104  27295000     15279         0\r\n', '* VirtualPortGroup0             0         0         0         0         0         0         0         0         0']

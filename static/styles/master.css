@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.outer.left-panel {
+    /* background-color: blue; */
+    height: 100%;
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+.outer.right-panel {
+    height: 100%;
+    background-color: tan;
+    overflow-y: scroll;
+    /* display: grid;
+    place-items: center; */
+}
+
+.inner.two {
+    /* background-color: yellow; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.edit-panel {
+    /* background-color: red; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.editPanelOptions {
+    height: 100%;
+}
+
+.edit-panel-options .btn {
+    max-height: 31px;
+    width: 100%;
+    border: black solid 1px;
+}
+
+.selection-panel {
+    /* background-color: green; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.selection-panel .btn {
+    width: 100%;
+    height: 100%;
+    border: black solid 1px;
+}
+
+.list-group-item {
+    width: 100%;
+}
+
+.editPanelView {
+    /* background-color: blue; */
+    /* word-wrap: break-word; */
+}
+
+a {
+    background-color: transparent !important;
+}
+
+.selectedListItem {
+    background-color: red !important;
+}
+
+.inner.one {
+    border: 1pt black solid;
+}
+
+.results-table {
+    width: 100%;
+    overflow-y: scroll;
+    border: 1pt black solid;
+}
+
+th {
+    border: 1pt black solid;
+}
+
+td {
+    border: 1pt black solid;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'header.html'%}
+
+<body>
+    <div class="main-container">
+        <div class="outer left-panel">
+            <div class="inner one">
+                <table class="results-table">
+                    <thead>
+                        <th>Date/Time</th>
+                        <th>Test Name</th>
+                        <th>Pass/Fail</th>
+                        <th>Results</th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="inner two">
+                <div class="selection-panel">
+                    {% include 'selectionPanel.html' %}
+                </div>
+                <div class="edit-panel">
+                    {% include 'editPanelOptions.html' %} {% include 'editPanelView.html'%}
+                </div>
+            </div>
+        </div>
+        <div class="outer right-panel display-lists">
+            {% include 'right_panel.html' %}
+        </div>
+    </div>
+</body>
+
+</html>

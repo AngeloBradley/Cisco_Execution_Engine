@@ -1,0 +1,9 @@
+csr1000v:
+    IP: 13.58.132.137
+    Username: student
+    Password: Cisco!123
+
+traffic_gen:
+    IP: 13.58.108.166
+    Username: ec2-user
+    Password: Cisco!123

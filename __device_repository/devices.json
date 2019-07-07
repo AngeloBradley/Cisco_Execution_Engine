@@ -1,0 +1,15 @@
+{
+    "device_tests": [
+        {
+            "devicetest1": "DUT"
+        }
+    ],
+    "traffic_generators": [
+        {
+            "generator1": "TRex"
+        }
+    ],
+    "other_devices": [
+
+    ]
+}
